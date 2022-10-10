@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: none;
+    padding: none;
+    font-family: 'Poppins', sans-serif; ;
+}
+
+header{
+    width: 1000px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+ul{
+    display: flex;
+}
+li{
+    text-transform: uppercase;
+    list-style: none;
+    margin-left: 5px;
+    text-size-adjust: 2px ;
+}
+
+h1,h2,h3{
+    text-transform: uppercase;
+}
+.hero {
+    width: auto;
+    height: 500px;
+    background-color: rgb(252, 214, 2);
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.intro{
+    width: 500px;
+    flex-direction: column ;
+    text-align: center;
+    
+}
+.fotoperfil{
+    width: 500px;
+   
+}
+img{
+    width: 250px;
+    height: 250px;
+    border: 10px solid white;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.flechahero{
+    background-color: aqua;
+    display: ;
+}
