@@ -3,6 +3,7 @@
 *{
     margin: none;
     padding: none;
+    text-decoration: none;
     font-family: 'Poppins', sans-serif; ;
 }
 
@@ -13,47 +14,98 @@ header{
     align-items: center;
     margin: 0 auto;
 }
+.socialmedia i{
+    margin-left: 10px;
+    background-color: beige;
+    
+}
+
 ul{
     display: flex;
+    background-color: blueviolet;
+    margin: 0 20px
 }
 li{
     text-transform: uppercase;
     list-style: none;
     margin-left: 5px;
-    text-size-adjust: 2px ;
+    font-size: smaller;
+    margin: 0 5px
+}
+h3{
+margin-right: 20px;
 }
 
 h1,h2,h3{
     text-transform: uppercase;
+    
 }
-.hero {
+
+h2{ font-size: 1.3rem;
+    font-weight:400;
+}
+
+h1{ font-size: 3rem;
+    font-weight: bolder;
+    border: 2px;
+    border-color: black;
+    
+}
+
+.container {
     width: auto;
     height: 500px;
     background-color: rgb(252, 214, 2);
     display: flex;
     align-items: center;
     margin: 0 auto;
-
+    justify-content: center;
 }
 
 .intro{
     width: 500px;
     flex-direction: column ;
-    text-align: center;
+}
+
+
+.lineaboton{
+    display: flex;  
+}
+
+.lineaboton button{
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+    font-size: smaller;
+    padding: 10px 40px ;
     
 }
+.lineaboton a{
+    color: black;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-size: smaller;
+    padding: 10px 40px ;
+    
+}
+
 .fotoperfil{
     width: 500px;
+    text-align: center;
    
 }
 img{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border: 10px solid white;
     border-radius: 100%;
     object-fit: cover;
 }
 .flechahero{
-    background-color: aqua;
-    display: ;
+    width: auto;
+    text-align: center;
+    padding-bottom: 5px;
+    background-color: rgb(252, 214, 2);
+   
+    
 }
