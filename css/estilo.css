@@ -1,39 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
-*{
-    margin: none;
-    padding: none;
+*{  margin: 0px;
+    padding: 0px;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif; ;
+    font-family: 'Poppins', sans-serif; 
 }
+
+:root{
+    --amarillo1: rgb(252, 214, 2);
+    --amarillo2: rgb(194, 167, 18);
+    --grisoscuro: rgb(41, 41, 41);
+    --grisclaro:  rgb(133, 143, 165);
+}
+
 
 header{
     width: 1000px;
-    background-color: aqua;
     display: flex;
     align-items: center;
     margin: 0 auto;
-}
-.socialmedia i{
-    margin-left: 10px;
-    background-color: beige;
     
 }
 
-ul{
-    display: flex;
-    background-color: blueviolet;
-    margin: 0 20px
+a{
+    color: var(--grisoscuro);
 }
+
+.logo{
+    width: 200px;
+    padding: 0 5px;
+}
+
+ul{
+    width: 550px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
 li{
     text-transform: uppercase;
-    list-style: none;
-    margin-left: 5px;
-    font-size: smaller;
-    margin: 0 5px
+    list-style-type: none;
+    font-size: 0.7rem;
+    
+    
 }
-h3{
-margin-right: 20px;
+
+.socialmedia {
+    width: 200px;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+i{
+    margin:0 5px;
+    color:var(--grisoscuro)
 }
 
 h1,h2,h3{
@@ -41,20 +63,28 @@ h1,h2,h3{
     
 }
 
-h2{ font-size: 1.3rem;
-    font-weight:400;
+h1{ font-size: 5rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.5px;
+    border-right: solid  rgb(194, 167, 18) 12px;
+    padding-right: 4px;
+    display: inline;
+    color: var(--grisoscuro);
 }
 
-h1{ font-size: 3rem;
-    font-weight: bolder;
-    border: 2px;
-    border-color: black;
-    
+h2{ font-size: 2.3rem;
+    font-weight:400;
+    color: var(--grisoscuro);
+}
+
+.lugar{
+    font-size: 1rem;
+    color: var(--grisoscuro);
 }
 
 .container {
     width: auto;
-    height: 500px;
+    height: 450px;
     background-color: rgb(252, 214, 2);
     display: flex;
     align-items: center;
@@ -63,6 +93,7 @@ h1{ font-size: 3rem;
 }
 
 .intro{
+    padding: 0 5px;
     width: 500px;
     flex-direction: column ;
 }
@@ -70,21 +101,24 @@ h1{ font-size: 3rem;
 
 .lineaboton{
     display: flex;  
+    margin-top: 25px;
+    color: var(--grisoscuro);
 }
 
 .lineaboton button{
-    background-color: black;
+    background-color:var(--grisoscuro);
     color: white;
     text-transform: capitalize;
-    font-size: smaller;
+    font-size: 0.8rem;
     padding: 10px 40px ;
+    border: none;
     
 }
 .lineaboton a{
     color: black;
     text-transform: capitalize;
     text-decoration: underline;
-    font-size: smaller;
+    font-size: 0.8rem;
     padding: 10px 40px ;
     
 }
@@ -106,6 +140,7 @@ img{
     text-align: center;
     padding-bottom: 5px;
     background-color: rgb(252, 214, 2);
+    color: var(--grisoscuro);
    
     
 }
