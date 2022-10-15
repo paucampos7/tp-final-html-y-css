@@ -14,6 +14,38 @@
     --grisclaro:  rgb(133, 143, 165);
 }
 
+section{
+    width: 1000px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+h1{ font-size: 5rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border-right: solid  rgb(194, 167, 18) 12px;
+    padding-right: 4px;
+    display: inline;
+    color: var(--grisoscuro);
+}
+
+h2{ text-transform: uppercase;
+    font-size: 2.3rem;
+    font-weight:400;
+    color: var(--grisoscuro);
+}
+
+h3{
+    text-transform:capitalize;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    
+}
+
+p{
+    line-height: 1.8 ;
+}
 
 header{
     width: 1000px;
@@ -23,28 +55,35 @@ header{
     
 }
 
-a{
+a {
     color: var(--grisoscuro);
+    text-transform: capitalize;
+    
 }
 
-.logo{
+.logo{ 
     width: 200px;
     padding: 0 5px;
-}
-
-ul{
-    width: 550px;
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-
-li{
     text-transform: uppercase;
+    display: block;   
+}
+
+nav{
+    width: 600px; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+}
+ul{
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+li, .menu{
     list-style-type: none;
     font-size: 0.7rem;
-    
-    
+    text-transform: uppercase;
 }
 
 .socialmedia {
@@ -58,24 +97,12 @@ i{
     color:var(--grisoscuro)
 }
 
-h1,h2,h3{
-    text-transform: uppercase;
-    
+.hero{
+    width: auto;
 }
 
-h1{ font-size: 5rem;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 1.5px;
-    border-right: solid  rgb(194, 167, 18) 12px;
-    padding-right: 4px;
-    display: inline;
-    color: var(--grisoscuro);
-}
 
-h2{ font-size: 2.3rem;
-    font-weight:400;
-    color: var(--grisoscuro);
-}
+
 
 .lugar{
     font-size: 1rem;
@@ -141,6 +168,84 @@ img{
     padding-bottom: 5px;
     background-color: rgb(252, 214, 2);
     color: var(--grisoscuro);
-   
+}
+
+
+
+.linkytitulo{
+    width: 1000px;
     
+    text-align: center;
+    padding:20px 0;
+    margin-top: 20px;
+}
+
+.link{
+    background-color:var(--amarillo1);
+    font-size: 0.8rem;
+}
+
+.mepresento{
+    width: 1000px;
+    
+    display: flex;
+    
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nombre{
+    font-size: 1rem;
+}
+.hi{
+    width: 620px;
+    display: flex;
+    flex-direction: column;
+    font-size: 00.8rem;
+    padding-right: 30px;
+}
+
+.circulo{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: var(--amarillo1);
+    display: flex;
+    align-items: center;
+    margin:0 auto
+    
+}
+.veintidos{
+    font-size: 5rem;
+    font-weight: 600;
+    align-items: center;
+    
+}
+.anios{
+    width: 380px;
+    padding-top: 10px;
+    text-align: center;
+    display: block;
+    font-size: 1rem;
+}
+
+
+table{
+    width: 1000px;
+    margin:30px auto; 
+}
+
+th, td{
+    text-align: left;
+    padding-right: 50px;
+}
+
+th{
+    font-weight: 100;
+    font-size: 0.8rem;   
+}
+
+td{
+    font-weight: 600;
+    font-size: 0.9rem;
 }
