@@ -12,12 +12,19 @@
     --amarillo2: rgb(194, 167, 18);
     --grisoscuro: rgb(41, 41, 41);
     --grisclaro:  rgb(133, 143, 165);
+    --grisclarito: rgb(241, 245, 253);
 }
 
 section{
-    width: 1000px;
+    width: auto;
     align-items: center;
     margin: 0 auto;
+}
+
+.contenedor {
+    width: 1000px;
+    margin: 0 auto;
+   
 }
 
 h1{ font-size: 5rem;
@@ -99,6 +106,7 @@ i{
 
 .hero{
     width: auto;
+    background-color: var(--amarillo1);
 }
 
 
@@ -110,9 +118,8 @@ i{
 }
 
 .container {
-    width: auto;
+    
     height: 450px;
-    background-color: rgb(252, 214, 2);
     display: flex;
     align-items: center;
     margin: 0 auto;
@@ -174,10 +181,10 @@ img{
 
 .linkytitulo{
     width: 1000px;
-    
     text-align: center;
-    padding:20px 0;
-    margin-top: 20px;
+    padding:30px 0;
+    margin: 0px 0;
+    
 }
 
 .link{
@@ -187,9 +194,7 @@ img{
 
 .mepresento{
     width: 1000px;
-    
     display: flex;
-    
     align-items: center;
     margin: 0 auto;
 }
@@ -204,6 +209,7 @@ img{
     font-size: 00.8rem;
     padding-right: 30px;
 }
+
 
 .circulo{
     width: 70px;
@@ -232,7 +238,8 @@ img{
 
 table{
     width: 1000px;
-    margin:30px auto; 
+    margin:50px auto; 
+    padding-bottom: 50px;
 }
 
 th, td{
@@ -248,4 +255,52 @@ th{
 td{
     font-weight: 600;
     font-size: 0.9rem;
+}
+
+.tres{
+    background-color: var(--grisclarito);
+    width: auto;
+    padding: 30px 0;
+}
+
+
+h4{
+    text-transform: capitalize;
+    padding: 5px
+}
+
+.grilla{
+    
+    display: flex;
+    margin-top: 0 auto;
+    
+}
+
+
+.grillainterior{
+    width: auto;
+    text-align: center;
+    padding: 30px
+    
+}
+.igrilla{
+    font-size: 3rem;
+    padding: 10px 0;
+    color: var(--amarillo1);
+}
+.pgrilla{
+    font-size: 0.8rem;
+}
+.seis{
+ width: auto;
+ background-color: var(--grisoscuro);
+}
+
+.ocho{
+    background-color: var(--grisclaro);
+    
+}
+
+.nueve{
+    background-color: var(--amarillo1);
 }
