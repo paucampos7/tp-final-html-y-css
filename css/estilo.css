@@ -65,6 +65,10 @@ header{
 a {
     color: var(--grisoscuro);
     text-transform: capitalize;
+}
+
+.link:hover{
+    background-color: var(--amarillo2);
     
 }
 
@@ -73,6 +77,11 @@ a {
     padding: 0 5px;
     text-transform: uppercase;
     display: block;   
+}
+
+.logo:hover, i:hover{
+    color:  var(--amarillo1);
+    text-shadow: 1px 1px 2px var(--grisoscuro);
 }
 
 nav{
@@ -101,8 +110,12 @@ li, .menu{
 }
 i{
     margin:0 5px;
-    color:var(--grisoscuro)
+    color:var(--grisoscuro);
+    cursor: pointer; 
 }
+
+
+ 
 
 .hero{
     width: auto;
@@ -146,7 +159,15 @@ i{
     font-size: 0.8rem;
     padding: 10px 40px ;
     border: none;
+    cursor: pointer; 
+}
+
+button:hover{
+    background-color:var(--amarillo2);
+    box-shadow: 1px 1px 3px var(--grisoscuro);
+    color:white;
     
+
 }
 .lineaboton a{
     color: black;
@@ -162,7 +183,7 @@ i{
     text-align: center;
    
 }
-img{
+.profilephoto{
     width: 300px;
     height: 300px;
     border: 10px solid white;
@@ -304,3 +325,35 @@ h4{
 .nueve{
     background-color: var(--amarillo1);
 }
+
+.navdos{
+    width: 600px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.menunavdos{
+    
+   text-transform:capitalize;
+   font-size: 0.8rem;
+}
+
+.menu:hover, .menunavdos:hover {
+    font-weight:bold;
+    border-bottom: 2px solid var(--amarillo1);
+}
+
+.gallery{
+    width: auto;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+  
+}
+.photogallery{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin: 5px 10px;
+    cursor: pointer;    
+}
+
