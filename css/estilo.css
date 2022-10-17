@@ -357,3 +357,24 @@ h4{
     cursor: pointer;    
 }
 
+footer{
+    background-color:var(--grisoscuro);
+}
+.final{
+    width: 1000px;
+    
+    margin:0 auto;
+    display: flex;
+}
+.foot{
+    width: 500px;
+    height: 25px;
+    color:white;
+    font-size: 0.5rem;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+.linksimple{
+    color:var(--amarillo1)
+}
