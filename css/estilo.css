@@ -152,7 +152,7 @@ i{
     color: var(--grisoscuro);
 }
 
-.lineaboton button{
+.viewmyworks{
     background-color:var(--grisoscuro);
     color: white;
     text-transform: capitalize;
@@ -246,6 +246,7 @@ button:hover{
     font-size: 5rem;
     font-weight: 600;
     align-items: center;
+    text-align: center;
     
 }
 .anios{
@@ -362,7 +363,6 @@ footer{
 }
 .final{
     width: 1000px;
-    
     margin:0 auto;
     display: flex;
 }
@@ -377,4 +377,144 @@ footer{
 }
 .linksimple{
     color:var(--amarillo1)
+}
+
+
+.educacionyesperiencia{
+    width: auto;
+    display: flex;
+    padding: 0 0 30px 0;
+}
+.educacion{
+    width: 500px;
+    
+    
+}
+.experienciab{
+    width: 500px;
+}
+
+.detalle{
+    margin: 0 5px;
+    padding: 0 5px;
+    border-left: 1px solid var(--amarillo1);
+    
+}
+
+h5{
+    font-size: 0.9rem;
+    
+}
+.empresa{
+    font-size:0.8rem;
+    font-weight: bold;
+
+}
+.divisor{
+    color: var(--grisclaro);
+    margin: 10px 0;
+}
+
+.skills{
+padding-bottom: 30px;
+
+}
+
+.detalleskills{
+    display: flex;
+}
+.porcentaje{
+    width: 500px;
+}
+.myskills{
+    width: 1000px;
+}
+
+.lineaskills{
+    width: 450px;
+    height: 0px;
+    background-color:solid var(--amarillo1);
+    border: 3px solid var(--amarillo1);
+    margin: 5px 0 15px 0;
+}
+
+
+.descargacv{
+    display: block;
+    margin:10px auto;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 10px;
+}
+
+.interesado{
+    color:white;
+    margin-bottom: 20px;
+}
+
+.contratame{
+    color:var(--grisoscuro);
+    background-color: var(--amarillo1);
+    padding: 8px 15px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    border-color: var(--amarillo1);
+    
+}
+
+.contact{
+    display:flex
+}
+
+.getintouch{
+    width: 350px;
+    padding: 30px 10px;
+    margin-right: 30px;
+}
+.pongamonos{
+    padding-bottom: 15px;
+}
+
+.formulario{
+    width: 620px;
+    padding:30px 20px;
+    
+    margin-left:30px;
+}
+label{
+    width: auto;
+    display: block;
+    font-size: 00.8rem;
+    padding: 10px 0;
+}
+
+input{
+    display:block;
+    width: 620px;
+    padding-bottom: 10px;
+    background-color: var(--amarillo1);
+    border:none;
+    box-shadow: 0px 1px 1px var(--grisoscuro);
+}
+
+input:hover, textarea:hover{
+    background-color: var(--amarillo2);
+    
+}
+textarea{
+    display: block;
+    width: 620px;
+    height: 80px;
+    background-color: var(--amarillo1);
+    border:none;
+    box-shadow: 0px 1px 1px var(--grisoscuro);
+  
+}
+
+
+.enviar{
+    margin-top: 20px;
+    color:white;
+    background-color: var(--grisoscuro);
+    border: var(--grisoscuro);
+    padding: 5px 30px;
 }
